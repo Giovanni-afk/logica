@@ -1,0 +1,18 @@
+algoritmo "vetorum"
+var
+n1: vetor[0..3] de inteiro
+n2: vetor[0..3] de inteiro
+c: inteiro
+inicio
+para c de 0 ate 3 faca
+escreva("digite quatro numeros: ")
+leia(n1[c])
+fimpara
+para c de 0 ate 3 faca
+n2[c]<- n1[c]
+escreval(n2[c])
+escreval(n1[c])
+fimpara
+
+
+fimalgoritmo
